@@ -10,8 +10,8 @@ body{
 }
 .all {
   background-color: white;
-  border: 1px solid black;
-  border-radius: 1px;
+  /* border: 1px solid black;
+  border-radius: 1px; */
   display: flex;
 }
 #main {
@@ -57,7 +57,7 @@ body{
   width: 25vw;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #words {
   width: 80%;
