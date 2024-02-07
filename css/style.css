@@ -59,3 +59,10 @@
 #num1 .word1{
 text-decoration: black;
 }
+#num2{
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    background-color: hsla(39, 100%, 56%);
+    color: hsl(39, 100%, 56%);
+}
