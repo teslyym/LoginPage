@@ -2,9 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
 .all {
   background-color: white;
-  border: 50%;
+  border: 1px solid black;
   border-radius: 1px;
   display: flex;
 }
@@ -19,14 +25,15 @@
 
   background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid;
   border-radius: 20px;
-  height: 70vh;
   width: 25vw;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  color: white;
+  padding: 5vh 0;
+  gap: 5vh;
 }
 #circle {
   display: flex;
@@ -38,30 +45,29 @@
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   font-style: normal;
   font-size: small;
-  text-decoration: white;
 }
 
 #second {
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   /* border: 1px solid; */
   border-radius: 20px;
-  height: 70vh;
+  padding: 5vh 0;
   width: 25vw;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
   border: 1px solid black;
 }
 #words {
   width: 80%;
   /* border: 1px solid black; */
 }
-#sum p{
+#sum{
+    width: 80%;
     display: flex;
-    justify-content: left;
-    
+    justify-content: start;
+    color: hsl(224, 30%, 27%)
 }
 
 #words h1{
@@ -104,14 +110,19 @@
     background-color: hsla(234, 85%, 45%, 0.1);
   }
   #num4 .inner-box p {
-    color: hsl(234, 85%, 45%));
+    color: hsl(234, 85%, 45%);
   }
 
   #last{
-    border-radius: 10px;
-    border: 10px;
-    padding: 8px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 8px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 80%; 
+    background-color:hsl(224, 30%, 27%) ;
+    color: white;
+  }
+  #last :hover{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   }
