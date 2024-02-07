@@ -33,6 +33,8 @@
     width: 100px;
     height: 100px;
     background-color: hsla(256, 72%, 46%, 1);
+    font-style: normal;
+    font-size: small;
 }
 
 #second{
